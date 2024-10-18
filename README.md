@@ -25,7 +25,7 @@ This project involves fine-tuning a BERT-based model (`dslim/bert-large-NER`) to
 ### Fine-Tuning the Model
 You can fine-tune the model using the custom dataset by running the script:
 ```bash
-python train_model.py --output_dir ./model_output --learning_rate 2e-5 --num_train_epochs 5
+python train.py --output_dir ./model_output --learning_rate 2e-5 --num_train_epochs 5
 ```
 
 ### Inference
